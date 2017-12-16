@@ -3,11 +3,7 @@
     <div class='images'>
       <img class='image' src='../assets/1.jpg'>
       <div class='image'>
-        <p>
-        流水 不解寂寞
-        <br/>
-        落花 空自漂泊
-        </p>
+        <img src='../assets/text.png'>
         <img src='../assets/2.jpg'>
       </div>
       <img class='image' src='../assets/3.jpg'>
@@ -15,6 +11,11 @@
     <div class='images'>
       <img class='image' src='../assets/4.jpg'>
     </div>
+    <p>
+      People come and go - the challenges you and I face, we face alone.
+      <br/>
+      Taken at 七星潭 and 石梯坪 in 🇹🇼, when I was very sick.
+    </p>
   </div>
 </template>
 
