@@ -1,17 +1,26 @@
 <template>
-  <div class='images'>
-    <img src='../assets/1.jpg'>
-    <img src='../assets/2.jpg'>
-    <img src='../assets/3.jpg'>
-    <img src='../assets/4.jpg'>
+  <div>
+    <div class='images'>
+      <img class='image' src='../assets/1.jpg'>
+      <div class='image'>
+        <p>
+        流水 不解寂寞
+        <br/>
+        落花 空自漂泊
+        </p>
+        <img src='../assets/2.jpg'>
+      </div>
+      <img class='image' src='../assets/3.jpg'>
+    </div>
+    <div class='images'>
+      <img class='image' src='../assets/4.jpg'>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Images',
-  data () {
-  }
+  name: 'Images'
 }
 </script>
 
@@ -20,15 +29,23 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.images {
+  display: flex;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 25%;
+  align-items: flex-end;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.images .image {
+  width: 30%;
+  margin: 1%;
 }
-a {
-  color: #42b983;
+
+.images .image img {
+  width: 100%;
 }
+
 </style>
