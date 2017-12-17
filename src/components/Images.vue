@@ -20,12 +20,15 @@
       </div>
     </div>
     <div class='container'>
-      <img class='image' src='../assets/4.jpg'>
+      <div class='image'>
+        <img src='../assets/4.jpg'>
+        4. Untitled
+      </div>
     </div>
+    <hr/>
     <p>
       Taken at 七星潭 and 石梯坪 in Taiwan, when I was very sick.
     </p>
-    <hr/>
     <div class='explanation'>
       <b>Explanation</b>
       <ol>
