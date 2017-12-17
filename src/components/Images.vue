@@ -6,6 +6,10 @@
         1. Different Paths
       </div>
       <div class='image'>
+      <audio controls>
+        <source src="http://soundbible.com/mp3/Crisp_Ocean_Waves-Mike_Koenig-1486046376.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
         <img src='../assets/text.png'>
         <img src='../assets/2.jpg'>
         2. Chance Meeting
