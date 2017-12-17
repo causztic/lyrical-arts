@@ -1,21 +1,36 @@
 <template>
   <div>
-    <div class='images'>
-      <img class='image' src='../assets/1.jpg'>
+    <div class='container'>
+      <div class='image'>
+        <img src='../assets/1.jpg'>
+        1. Different Paths
+      </div>
       <div class='image'>
         <img src='../assets/text.png'>
         <img src='../assets/2.jpg'>
+        2. Chance Meeting
       </div>
-      <img class='image' src='../assets/3.jpg'>
+      <div class='image'>
+        <img src='../assets/3.jpg'>
+        3. Alone
+      </div>
     </div>
-    <div class='images'>
+    <div class='container'>
       <img class='image' src='../assets/4.jpg'>
     </div>
     <p>
-      People come and go - the challenges you and I face, we face alone.
-      <br/>
-      Taken at 七星潭 and 石梯坪 in 🇹🇼, when I was very sick.
+      Taken at 七星潭 and 石梯坪 in Taiwan, when I was very sick.
     </p>
+    <hr/>
+    <div class='explanation'>
+      <b>Explanation</b>
+      <ol>
+        <li>People have different ambitions, desires and directions. Cold, sharp cliffs and overcast skies.</li>
+        <li>The skies appear less dark, and the beach, flat and vast. The sands are still coarse, but the same people have found each other.</li>
+        <li>People come and go, like the waves up the beach, like the flowing water passing us by.</li>
+        <li>In the end, we have only ourselves to face the challenges head on.</li>
+      </ol>
+    </div>
   </div>
 </template>
 
@@ -30,7 +45,24 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-.images {
+hr {
+  border: solid 1px #eee;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 25%;
+}
+.explanation {
+  display: flex;
+  align-items: center;
+  justify-ceontent: center;
+  flex-direction: column;
+}
+
+ol {
+  text-align: left;
+  padding-right: 1em;
+}
+.container {
   display: flex;
   flex-grow: 0;
   flex-wrap: wrap;
@@ -40,23 +72,23 @@ h1, h2 {
   align-items: flex-end;
 }
 
-.images .image {
+.container .image {
   width: 30%;
   margin: 1%;
 }
 
-.images .image img {
+.container .image img {
   width: 100%;
 }
 
 @media only screen and (max-width: 425px) {
-  .images {
+  .container {
     flex-basis: 100%;
   }
-  .images .image {
+  .container .image {
     width: 100%;
   }
-  .images .image img {
+  .container .image img {
     width: 100%;
   }
 }
