@@ -27,15 +27,15 @@
     </div>
     <hr/>
     <p>
-      Taken at 七星潭 and 石梯坪 in Taiwan, when I was very sick.
+      Taken at 七星潭 and 石梯坪 in Taiwan, when I was very sick. I was very sick alone.
     </p>
     <div class='explanation'>
       <b>Explanation</b>
       <ol>
-        <li>People have different ambitions, desires and directions. Cold, sharp cliffs and overcast skies.</li>
-        <li>The skies appear less dark, and the beach, flat and vast. The sands are still coarse, but the same people have found each other.</li>
-        <li>People come and go, like the waves up the beach, like the flowing water passing us by.</li>
-        <li>In the end, we have only ourselves to face the challenges head on.</li>
+        <li>People have different ambitions, desires and directions. People live amongst cold, sharp cliffs and overcast skies.</li>
+        <li>The beach flat and vast, the skies less dark, but the sand is still coarse - the same people have found each other.</li>
+        <li>Like the waves up the beach, like the flowing water passing us by, people come and go.</li>
+        <li>In the end, we have only ourselves to face our own challenges.</li>
       </ol>
     </div>
   </div>
