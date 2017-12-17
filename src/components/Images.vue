@@ -49,4 +49,16 @@ h1, h2 {
   width: 100%;
 }
 
+@media only screen and (max-width: 425px) {
+  .images {
+    flex-basis: 100%;
+  }
+  .images .image {
+    width: 100%;
+  }
+  .images .image img {
+    width: 100%;
+  }
+}
+
 </style>
